@@ -932,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer {
   background: #018BD3;
-  padding: 0 0 30px 0;
+  padding: 0 0 5px 0;
   font-size: 14px;
   color: #fff;
 }
@@ -1071,4 +1071,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 16px;
   margin: 0 2px;
+}
+
+/* The alert message box */
+.alert {
+  padding: 15px;
+  background-color: #009FE3; 
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+/* _alert.scss:29 */
+.alert-dismissible {
+  padding-right: ($close-font-size + $alert-padding-x * 2);
+
+  // Adjust close link position
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: $alert-padding-y $alert-padding-x;
+    color: inherit;
+  }
 }
