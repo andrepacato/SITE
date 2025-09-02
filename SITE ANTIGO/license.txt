@@ -13,3 +13,5 @@ FREE VERSION LICENSE:
 Please, purchase full version to get all features and permissions to use with commercial projects
 
 Best regards
+
+nginx
